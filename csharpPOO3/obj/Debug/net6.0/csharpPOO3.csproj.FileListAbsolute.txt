@@ -1,0 +1,15 @@
+/Users/fmartinez/csProjects/csharpPOO3/bin/Debug/net6.0/csharpPOO3
+/Users/fmartinez/csProjects/csharpPOO3/bin/Debug/net6.0/csharpPOO3.deps.json
+/Users/fmartinez/csProjects/csharpPOO3/bin/Debug/net6.0/csharpPOO3.runtimeconfig.json
+/Users/fmartinez/csProjects/csharpPOO3/bin/Debug/net6.0/csharpPOO3.dll
+/Users/fmartinez/csProjects/csharpPOO3/bin/Debug/net6.0/csharpPOO3.pdb
+/Users/fmartinez/csProjects/csharpPOO3/obj/Debug/net6.0/csharpPOO3.csproj.AssemblyReference.cache
+/Users/fmartinez/csProjects/csharpPOO3/obj/Debug/net6.0/csharpPOO3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fmartinez/csProjects/csharpPOO3/obj/Debug/net6.0/csharpPOO3.AssemblyInfoInputs.cache
+/Users/fmartinez/csProjects/csharpPOO3/obj/Debug/net6.0/csharpPOO3.AssemblyInfo.cs
+/Users/fmartinez/csProjects/csharpPOO3/obj/Debug/net6.0/csharpPOO3.csproj.CoreCompileInputs.cache
+/Users/fmartinez/csProjects/csharpPOO3/obj/Debug/net6.0/csharpPOO3.dll
+/Users/fmartinez/csProjects/csharpPOO3/obj/Debug/net6.0/refint/csharpPOO3.dll
+/Users/fmartinez/csProjects/csharpPOO3/obj/Debug/net6.0/csharpPOO3.pdb
+/Users/fmartinez/csProjects/csharpPOO3/obj/Debug/net6.0/csharpPOO3.genruntimeconfig.cache
+/Users/fmartinez/csProjects/csharpPOO3/obj/Debug/net6.0/ref/csharpPOO3.dll
