@@ -1,0 +1,15 @@
+/Users/fmartinez/csProjects/csharpGenerics/bin/Debug/net6.0/csharpGenerics
+/Users/fmartinez/csProjects/csharpGenerics/bin/Debug/net6.0/csharpGenerics.deps.json
+/Users/fmartinez/csProjects/csharpGenerics/bin/Debug/net6.0/csharpGenerics.runtimeconfig.json
+/Users/fmartinez/csProjects/csharpGenerics/bin/Debug/net6.0/csharpGenerics.dll
+/Users/fmartinez/csProjects/csharpGenerics/bin/Debug/net6.0/csharpGenerics.pdb
+/Users/fmartinez/csProjects/csharpGenerics/obj/Debug/net6.0/csharpGenerics.csproj.AssemblyReference.cache
+/Users/fmartinez/csProjects/csharpGenerics/obj/Debug/net6.0/csharpGenerics.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fmartinez/csProjects/csharpGenerics/obj/Debug/net6.0/csharpGenerics.AssemblyInfoInputs.cache
+/Users/fmartinez/csProjects/csharpGenerics/obj/Debug/net6.0/csharpGenerics.AssemblyInfo.cs
+/Users/fmartinez/csProjects/csharpGenerics/obj/Debug/net6.0/csharpGenerics.csproj.CoreCompileInputs.cache
+/Users/fmartinez/csProjects/csharpGenerics/obj/Debug/net6.0/csharpGenerics.dll
+/Users/fmartinez/csProjects/csharpGenerics/obj/Debug/net6.0/refint/csharpGenerics.dll
+/Users/fmartinez/csProjects/csharpGenerics/obj/Debug/net6.0/csharpGenerics.pdb
+/Users/fmartinez/csProjects/csharpGenerics/obj/Debug/net6.0/csharpGenerics.genruntimeconfig.cache
+/Users/fmartinez/csProjects/csharpGenerics/obj/Debug/net6.0/ref/csharpGenerics.dll

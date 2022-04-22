@@ -4,43 +4,47 @@
 
         public static void Main(string[] args)
         {
+
+        AlmacenObjetos<DateTime> fechas = new AlmacenObjetos<DateTime>(1);
             
-        AlmacenObjetos archivos = new AlmacenObjetos(4); 
+        AlmacenObjetos<Empleado> archivos = new AlmacenObjetos<Empleado>(4); 
         archivos.Agregar(new Empleado(1500));
         archivos.Agregar(new Empleado(2304));
         archivos.Agregar(new Empleado(3000));
         archivos.Agregar(new Empleado(900));
+        fechas.Agregar(new DateTime());
 
-        Empleado empleado = (Empleado)archivos.ObtenerElemento(1);
+        Empleado empleado = archivos.ObtenerElemento(1);
         System.Console.WriteLine(empleado.ObtenerSalario());
+        System.Console.WriteLine(fechas);
 
 
         }
 
     }
 
-    public class AlmacenObjetos{
+    class AlmacenObjetos<T> {
 
         public AlmacenObjetos(int z){
 
-            datosElemento = new Object[z];
+            datosElemento = new T[z];
 
         }
 
-        public void Agregar(Object obj){
+        public void Agregar(T obj){
 
             datosElemento[i] = obj;
             i++;
 
         }
 
-        public Object ObtenerElemento(int i){
+        public T ObtenerElemento(int i){
 
             return datosElemento[i];
 
         }
 
-        private Object[] datosElemento;
+        private T[] datosElemento;
         private int i = 0;
 
     }
