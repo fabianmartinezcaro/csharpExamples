@@ -1,4 +1,4 @@
-namespace csharpGenerics
+namespace csharpLinkedList
 {
     public class EmployeeStorage<T> where T: IOnlyEmployees
     {
