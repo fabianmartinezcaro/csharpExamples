@@ -7,9 +7,9 @@
             //DICTIONARY DECLARATION
             Dictionary<int, string> elements = new Dictionary<int, string>();
 
-            elements.Add(1001, "Juan");
-            elements.Add(1002, "Jaime");
-            elements.Add(1003, "Vicente");
+            elements.Add(1001, "string1");
+            elements.Add(1002, "string2");
+            elements.Add(1003, "string3");
             
             // PRINTING KEY AND VALUE FROM ELEMENTS
             System.Console.WriteLine("Printing added elements: ");
