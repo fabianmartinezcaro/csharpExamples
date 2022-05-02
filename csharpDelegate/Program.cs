@@ -2,8 +2,13 @@
 
     class Program{
 
+        delegate void DelegatedObject();
+
         public static void Main(string[] args){
             
+            
+            
+
 
             //      DELEGATES
             // Creating new delegate instance pointing to WelcomeMessage
@@ -81,7 +86,6 @@
             
         }
 
-        delegate void DelegatedObject();
 
     }
 
