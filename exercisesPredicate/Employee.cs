@@ -2,14 +2,20 @@ namespace exercisesPredicate
 {
     public class Employee{
 
-        private string name {get; set;}
-        private int age {get; set;}
+        private string name;
+        private int age;
 
 
         public Employee(string name, int age){
 
             this.name = name;
             this.age = age;
+
+        }
+
+        public int GetAge(){
+
+            return age;
 
         }
 
