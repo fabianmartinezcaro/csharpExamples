@@ -20,6 +20,17 @@
             // INIT A PREDICATE
             Predicate<Employee> employeePredicate = new Predicate<Employee>(OlderEmployees);
 
+            // FILTERING BY OLDEREMPLOYEE FUNCTION
+            List<Employee> selectedEmployees = employees.FindAll(employeePredicate);
+
+            // SELECTED EMPLOYEES
+            System.Console.WriteLine("EMPLOYEE PREDICATE: ");
+            foreach(Employee selectedEmployee in selectedEmployees){
+
+                System.Console.WriteLine(selectedEmployee.ToString());
+
+            }
+
 
             // EMPLOYEE INFORMATION
             System.Console.WriteLine("EMPLOYEE INFORMATION: ");
@@ -43,6 +54,15 @@
             
             // OUTPUTS
 
+                /*
+
+                EMPLOYEE PREDICATE: 
+                
+                Hey! I'm an Employee, my name is Joseph and I am 34 years old
+                Hey! I'm an Employee, my name is Matt and I am 39 years old
+                Hey! I'm an Employee, my name is Joseph and I am 37 years old
+                */
+
                 /* 
 
                 EMPLOYEE INFORMATION 
@@ -54,8 +74,6 @@
                 Hey! I'm an Employee, my name is Ron and I am 21 years old
                 Hey! I'm an Employee, my name is Alexander and I am 20 years old
                 Hey! I'm an Employee, my name is Joseph and I am 37 years old*/
-                
-
 
                 /*
 
