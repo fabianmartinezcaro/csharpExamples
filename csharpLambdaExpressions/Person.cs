@@ -17,6 +17,5 @@ namespace csharpLambdaExpressions
         public int Age {get => age; set => age = value;}
 
 
-
     }
 }

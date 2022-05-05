@@ -34,6 +34,20 @@
                 System.Console.WriteLine(number);
 
                 });
+            
+
+            // COMPARING PERSON'S NAME
+            CompareName comparison = new CompareName(EvaluateName);
+            System.Console.WriteLine("COMPARING NAMES: ");
+            System.Console.WriteLine(comparison(userJose));
+
+            static bool EvaluateName(Person person){
+
+                if (person.Name == "Jose") return true;
+                else return false;
+
+            }
+            
 
         }
 
@@ -47,6 +61,9 @@
 
         // DELEGATE TO COMPARE TWO PERSON'S AGE
         public delegate bool CompareAge(int firstAge, int secondAge);
+
+        // DELEGATE TO COMPARE PERSON'S NAME
+        public delegate bool CompareName(Person person);
     
 
     }
