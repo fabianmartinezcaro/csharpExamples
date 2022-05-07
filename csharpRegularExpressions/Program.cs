@@ -5,18 +5,15 @@ namespace csharpRegularExpressions{
 
         public static void Main(string[] args){
             
-            string pattern = @"\b(\w+?)\s\1\b";
-            string input = "This this is a nice day. What about this? This tastes good. I saw a a dog.";
+            string pattern = @"\d{3}-\d{2}-\d{2}";
+            string input = "This this is a nice day. Adress: Shark 0345, Phone: (+34)376 29 38";
 
-            foreach (Match match in Regex.Matches(input, pattern, RegexOptions.IgnoreCase))
-                    Console.WriteLine("{0} (duplicates '{1}') at position {2}",  match.Value, match.Groups[1].Value, match.Index);
+            Regex test = new Regex(pattern);
+            MatchCollection myMatch = test.Matches(input);
 
-            
-            string pattern2 = @"[ae]";
-            string input2 = "this is a good day to start doing some work";
+            if(myMatch.Count > 0)System.Console.WriteLine($"Se ha encontrado un numero de telefono");
+            else System.Console.WriteLine("No se han encontrado.");
 
-            foreach (Match match in Regex.Matches(input2, pattern2, RegexOptions.IgnoreCase))
-                    System.Console.WriteLine("{0}, {1}, {2}", match.Value, match.Groups[1], match.Index);
 
         }
 
